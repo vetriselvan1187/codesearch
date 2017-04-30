@@ -1,14 +1,13 @@
 # codesearch
 
 	codeasearch tool to search redis repository source code. API is exposed to search based on keyword which could be in the function name or parameter
-	jetty is used as container to server http request. it is configured in pom.xml with dependencies.
+	jetty is used as container to serve http request. it is configured in pom.xml with dependencies.
 
 	How to Start:
-		Unzip the repo or Clone the repo from github. set the Redis Source code Directory Path in the codesearch.properties. 
+		Unzip the Source Code or Clone the Source from github. set the Redis Source code Directory Path in the codesearch.properties. 
 		then run
 		mvn jetty:run
 		
-
 # prerequisites
 	1. JDK1.8
 	2. Maven 
