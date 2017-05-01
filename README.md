@@ -9,6 +9,10 @@
 		mvn jetty:run
 		
 
+# prerequisites
+	1. JDK1.8
+	2. Maven 
+
 # HTTP API for codesearch
 
 	the following url searches for the word in the file and returns the filename and the following line matches
@@ -23,6 +27,8 @@
 	3. http://localhost:8080/codesearch?word=input&type=parameter
 
 
+# Github Repository URL
 
+	https://github.com/vetriselvan1187/codesearch
 
 
