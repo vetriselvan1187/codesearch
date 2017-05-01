@@ -41,7 +41,7 @@ public class RepositoryCache {
 
 		Pattern pattern = null;
 		if(type.equals("function")) {
-				String functionRegex = "[\\w[^\\S\\r\\n]]*?"+word+"[\\w]*?\\([\\w\\s,\\*]*?\\)[\\s]*?\\{";
+				String functionRegex = "[\\w\\*[^\\S\\r\\n]]*?"+word+"[\\w]*?\\([\\w\\s,\\*]*?\\)[\\s]*?\\{";
 				pattern = Pattern.compile(functionRegex, Pattern.MULTILINE);	
 		}
 		if(type.equals("parameter")) {
